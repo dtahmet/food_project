@@ -46,3 +46,36 @@ a{
     color: rgb(228, 163, 44);
 
 }
+
+main h1 {
+    text-align: center;
+    color: rgb(228, 163, 44);
+    font-size:48px;
+
+}
+
+#latest-products {
+    width: 80%;
+    margin: 50px auto;
+
+}
+
+#latest-products ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+
+
+.food-items img{
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+
+.food-items {
+    margin: 10px 30px;
+}
