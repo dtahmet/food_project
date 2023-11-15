@@ -9,17 +9,17 @@ a{
 }
 
 #main-header{
-    height: 80px;
+    height: 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: antiquewhite;
-    padding: 0 20px;
+    padding: 0 2%;
     
 }
 
 #logo{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     color: rgb(234, 164, 80);
     text-transform: uppercase;
@@ -34,12 +34,12 @@ a{
 }
 
 #main-header li{
-    margin: 0 12px;
+    margin: 0 1rem;
 }
 
 #main-header nav a {
     color: rgb(185, 131, 31);
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 #main-header nav a:hover {
@@ -50,28 +50,29 @@ a{
 main h1 {
     text-align: center;
     color: rgb(228, 163, 44);
-    font-size:48px;
+    font-size: 3rem;
 
 }
 
 #latest-products {
     width: 80%;
-    margin: 50px auto;
+    margin: 2rem auto;
 
 }
 
 #latest-products ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 16px;
+    gap: 1rem;
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 
 
 .food-items img{
-    height: 240px;
+    height: 15rem;
     width: 100%;
     object-fit: cover;
     
@@ -80,31 +81,27 @@ main h1 {
 
 .food-items {
     background-color: rgb(228, 206, 182);
-    border-radius: 6px ;
+    border-radius: 6px ; /*bunu değiştirme*/
     overflow: hidden;
+    
     
 }
 
 .food-item-content{
     /*padding: 16px;*/
-    padding: 10%;
+    padding: 2rem;
     text-align: center;
     font-size: 2em;
 
 
 }
 
-h2{
-    /*font-size: 200%; em ve % birbirinin aynısı*/
-    /*font-size: 2em;*/
-    font-size: 2rem;
-}
 
 .btn{
     background-color: rgb(228, 157, 44);
     color: white;
     border-radius: 4px;
-    padding: 8px 24px;
+    padding: 0.5rem 1.5rem;
 
 }
 
